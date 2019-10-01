@@ -1,4 +1,4 @@
-.intro {
+ .intro {
             background-image: url("img/integration_gandalf.png");
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -39,11 +39,9 @@
         color: white;
         font: normal 57px arial, helvetica,Sans-Serif; 
         text-align: center;
-        top: 200px;
         position: relative;
-        margin-bottom: 20px;
-        height: 200px
-
+        top: 200px;
+        height: 100%;
     }
 
      .orange {
@@ -52,18 +50,16 @@
             margin-top: 100px;
         }
       
-.gandalf:hover {
-            font-size: 30px; 
-            text-align: center;
-            display: flex;
-            bottom: 10px;
-            margin-left: 100px;
-            
+.intro:hover .gandalf {
+        font-size: 30px; 
+        position: absolute;
+        margin-left: 200px;
+        top: initial;
+        bottom: -420px;
      }
 
 .intro:hover {
             opacity: 1;
      }
     
-
    
