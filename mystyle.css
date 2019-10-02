@@ -1,4 +1,4 @@
- .intro {
+.intro {
             background-image: url("img/integration_gandalf.png");
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -40,7 +40,7 @@
         font: normal 57px arial, helvetica,Sans-Serif; 
         text-align: center;
         position: relative;
-        top: 200px;
+        top: 40%;
         height: 100%;
     }
 
@@ -53,13 +53,10 @@
 .intro:hover .gandalf {
         font-size: 30px; 
         position: absolute;
-        margin-left: 200px;
-        top: initial;
-        bottom: -420px;
+        top: 60%;
+        margin-left: 180px;
      }
 
 .intro:hover {
             opacity: 1;
      }
-    
-   
